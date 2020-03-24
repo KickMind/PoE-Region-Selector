@@ -2,7 +2,7 @@
 
 This is a AutoHotKey script that helps you quickly find maps with a single click on the button of the desired region.
 
-![picture alt](https://i.imgur.com/CMUn4mB.png)
+![picture alt](https://imgur.com/CMUn4mB)
 
 * This is my relatively pretty modification of the original script of Fall (https://www.reddit.com/user/FallMakesHideouts/): https://www.reddit.com/r/pathofexile/comments/fbdeqj/poe_region_searcher_overlay_110_sort_your_maps_by/.
 
