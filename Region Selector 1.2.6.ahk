@@ -83,15 +83,12 @@ IniRead, Title, %ININame%, Options, Title
 ;*** Transparency
 IniRead, Trans, %ININame%, Options, Trans
 
-UniqueID := WinExist("ahk_class POEWindowClass")
-
 ;*** GUI layout
 Gui, Color, 0x000010
 Gui, Font, bold S10, Arial
 Gui, Add, Text, cWhite BackgroundTrans vT1, %Title%
 Gui, +LastFound -Caption -Border +ToolWindow
-Gui, +Owner%UniqueID%
-Gui, +Theme
+Gui, +AlwaysOnTop +Theme
 WinSet, TransColor, 0x000010 %Trans%
 
 Loop %ColumnsRegionName% {
@@ -252,17 +249,5 @@ CustomHotkeyName:
 
     } Else {
 	Gui, Show,, %WinName%
-
-; Переключения фокуса окна на пое
-;IfWinExist ahk_class POEWindowClass
-;{
-;	WinRestore, ahk_class POEWindowClass
-;	WinActivate, ahk_class POEWindowClass
-;	WinMaximize, ahk_class POEWindowClass
-;}
-; ----------------------------------------------------------------------------------------------------------------------
-;else
-;return
-	
 	}
 Return
