@@ -12,11 +12,11 @@ This is a AutoHotKey script that helps you quickly find maps with a single click
 
 ## Features from the original script are still there:
 * Click on the icon with region name to search your maps by region. Works in any stash tab with a search bar. (Make sure your stash is open when you do this or nothing will happen) .
+* "Always on top" in Path of Exile window.
 * Show/Hide overlay by pressing F2
 * Move the icons wherever you want and save position for next time you open/reload the macro. Show and hide interface by pressing F2 once to save the current position.
 
 ## But it have some other changes:
-* "Always on top" now work only in Path of Exile window.
 * Fully transparent background.
 * Options for change Title and transparence.
 * Correct work in Windows systems with any keyboard layouts.
